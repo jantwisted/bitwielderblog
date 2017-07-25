@@ -26,14 +26,13 @@ easiest way is to add the offset to the default value.
 ``$JBOSS_HOME/standalone/configuration/standalone.xml`` file. (in domain mode, it will be ``$JBOSS_HOME/domain/configuration/domain.xml`` file)
 
 .. code-block:: xml
-   :number-lines:
    
    <socket-binding-group name="standard-sockets" default-interface="public" port-offset="${jboss.socket.binding.port-offset:0}">
    <socket-binding name="management-native" interface="management" port="${jboss.management.native.port:9999}"/>
    <socket-binding name="management-http" interface="management" port="${jboss.management.http.port:9990}"/>
    <socket-binding name="management-https" interface="management" port="${jboss.management.https.port:9443}"/>
 
-.. TEASER_END
+
 
 Create a datasource
 -------------------
