@@ -880,12 +880,12 @@ CONTENT_FOOTER_FORMATS = {
 # systems.  The following comment systems are supported by Nikola:
 #   disqus, facebook, googleplus, intensedebate, isso, livefyre, muut
 # You can leave this option blank to disable comments.
-COMMENT_SYSTEM = "googleplus"
+COMMENT_SYSTEM = "disqus"
 # And you also need to add your COMMENT_SYSTEM_ID which
 # depends on what comment system you use. The default is
 # "nikolademo" which is a test account for Disqus. More information
 # is in the manual.
-# COMMENT_SYSTEM_ID = "nikolademo"
+COMMENT_SYSTEM_ID = "bitwielder"
 
 # Enable annotations using annotateit.org?
 # If set to False, you can still enable them for individual posts and pages
@@ -1017,19 +1017,19 @@ MARKDOWN_EXTENSIONS = ['fenced_code', 'codehilite', 'extra']
 # long time). Insert anything you want here, or even make it empty (which is
 # the default right now)
 # (translatable)
-SOCIAL_BUTTONS_CODE = """
-<!-- Social buttons -->
-<div id="addthisbox" class="addthis_toolbox addthis_peekaboo_style addthis_default_style addthis_label_style addthis_32x32_style">
-<a class="addthis_button_more">Share</a>
-<ul><li><a class="addthis_button_facebook"></a>
-<li><a class="addthis_button_google_plusone_share"></a>
-<li><a class="addthis_button_linkedin"></a>
-<li><a class="addthis_button_twitter"></a>
-</ul>
-</div>
-<script src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4f7088a56bb93798"></script>
-<!-- End of social buttons -->
-"""
+# SOCIAL_BUTTONS_CODE = """
+# <!-- Social buttons -->
+# <div id="addthisbox" class="addthis_toolbox addthis_peekaboo_style addthis_default_style addthis_label_style addthis_32x32_style">
+# <a class="addthis_button_more">Share</a>
+# <ul><li><a class="addthis_button_facebook"></a>
+# <li><a class="addthis_button_google_plusone_share"></a>
+# <li><a class="addthis_button_linkedin"></a>
+# <li><a class="addthis_button_twitter"></a>
+# </ul>
+# </div>
+# <script src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4f7088a56bb93798"></script>
+# <!-- End of social buttons -->
+# """
 
 # Show link to source for the posts?
 # Formerly known as HIDE_SOURCELINK (inverse)
