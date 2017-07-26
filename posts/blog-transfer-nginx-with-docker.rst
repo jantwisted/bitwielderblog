@@ -54,4 +54,4 @@ My plan is to use **Nginx** as the webserver and run it in a Docker container. T
     Direcotry mapping with host and container.
 
      
-This will create a container called **WebServer1** based on Nginx image and deploy the files in **/home/user/www/output/** host server directory.
+This will create a container called **WebServer1** based on Nginx image and deploy the files in `/home/user/www/output/` directory.
