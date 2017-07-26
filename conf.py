@@ -26,7 +26,7 @@ SITE_URL = "http://www.bitwielder.com/"
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://example.com/"
 BLOG_EMAIL = "janith@tuta.io"
-BLOG_DESCRIPTION = "This is the blog of Janith"  # (translatable)
+BLOG_DESCRIPTION = "Janith's personal blog"  # (translatable)
 
 # Nikola is multilingual!
 #
@@ -134,14 +134,14 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("https://about.me/janithperera", "fa fa-user"),
-        ("https://github.com/jantwisted", "fa fa-github"),
-        ("https://www.instagram.com/jpictoris", "fa fa-instagram"),
+        ("https://about.me/janithperera", "About"),
+        ("https://github.com/jantwisted", "Github"),
+        ("https://www.instagram.com/jpictoris", "Instagram"),
     ),
 }
 
 # Name of the theme to use.
-THEME = "hemingway"
+THEME = "canterville"
 
 # Primary color of your theme. This will be used to customize your theme and
 # auto-generate related colors in POSTS_SECTION_COLORS. Must be a HEX value.
@@ -286,7 +286,7 @@ COMPILERS = {
 # Nikola supports logo display.  If you have one, you can put the URL here.
 # Final output is <img src="LOGO_URL" id="logo" alt="BLOG_TITLE">.
 # The URL may be relative to the site root.
-# LOGO_URL = ''
+LOGO_URL = 'https://getnikola.com/assets/img/logo.svg'
 
 # If you want to hide the title of your website (for example, if your logo
 # already contains the text), set this to False.
@@ -1240,7 +1240,11 @@ UNSLUGIFY_TITLES = True
 
 # Put in global_context things you want available on all your templates.
 # It can be anything, data, functions, modules, etc.
-GLOBAL_CONTEXT = {}
+GLOBAL_CONTEXT = {
+    'TWITTER_URL': 'https://twitter.com/getnikola',
+    'GITHUB_URL': 'https://github.com/getnikola',
+    'BANNER_URL': '/galleries/blog-base/banner.jpg'
+}
 
 # Add functions here and they will be called with template
 # GLOBAL_CONTEXT as parameter when the template is about to be
