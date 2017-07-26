@@ -13,10 +13,8 @@ https://trac.torproject.org/projects/tor/wiki/doc/TransparentProxy
 
 I wrote WOWTor for the same purpose and it is fully based on this official documentation. WOWTor is a python script, which runs only in Debian with Python3+.
 
-Project
-  https://github.com/jantwisted/wowtor
+* Project : https://github.com/jantwisted/wowtor
 
-Example
-  .. thumbnail:: /galleries/tor-transparent-proxy-wowtor/after.png
+  .. image:: /galleries/tor-transparent-proxy-wowtor/after.png
 
 
