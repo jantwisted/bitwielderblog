@@ -1241,8 +1241,8 @@ UNSLUGIFY_TITLES = True
 # Put in global_context things you want available on all your templates.
 # It can be anything, data, functions, modules, etc.
 GLOBAL_CONTEXT = {
-    'TWITTER_URL': 'https://twitter.com/getnikola',
-    'GITHUB_URL': 'https://github.com/getnikola',
+    'TWITTER_URL': 'https://twitter.com/JANTWISTED',
+    'GITHUB_URL': 'https://github.com/jantwisted/bitwielderblog',
     'BANNER_URL': '/galleries/blog-base/banner.jpg'
 }
 
