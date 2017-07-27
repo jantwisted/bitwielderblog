@@ -6,7 +6,8 @@
 .. link: 
 .. description: 
 .. type: text
-
+.. previewimage: /galleries/friendship-cards/post_cards_01.jpg
+   
 
    THOUGH WE MAY BE MILES APART, WE'RE ALWAYS UNDER THE SAME SKY!
 
