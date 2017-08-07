@@ -1,0 +1,10 @@
+FROM local/c-systemd
+MAINTAINER janith <janith@member.fsf.org>
+
+RUN yum -y update && yum -y install httpd && yum clean all
+RUN systemctl enable httpd.service
+
+#optional
+EXPOSE 80
+
+CMD ["/usr/sbin/init"]
