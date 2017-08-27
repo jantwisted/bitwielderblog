@@ -62,7 +62,7 @@ I renamed my elf file to .out file. Then changed the permissions and executed. W
 
 5. The Time
 
-Time is the common enemy. It gives 3 seconds to catch the Elf. When I write an elf file and execute, 90% of the attempts it failed to accomplish the task within the given time. Instead of executing the file, I opened it and search for the answer (in this case I printed the answer), and it was there, but not that easy to read, because it was in a byte string.
+Time is the common enemy. It gives 3 seconds to catch the Elf. When I write an elf file and execute, 90% of the attempts, it failed to accomplish the task within the given time. Instead of executing the file, I opened it and search for the answer (in this case I printed the answer), and it was there, but not that easy to read, because it was in a byte string.
    
 6. Vim to rescue
 
