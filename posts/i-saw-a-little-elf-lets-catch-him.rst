@@ -4,6 +4,7 @@
 .. tags: elf, python
 .. category: tech, fun
 .. link: 
+.. previewimage: /galleries/i-saw-a-little-elf/elf-meme.jpg 
 .. description: 
 .. type: text
 
