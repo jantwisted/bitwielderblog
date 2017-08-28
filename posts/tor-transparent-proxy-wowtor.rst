@@ -4,7 +4,7 @@
 .. tags: tor 
 .. category: tech
 .. link: 
-.. description: 
+.. description: introducing wowtor, a python tool for a tor transparent proxy.
 .. type: text
 
 Have you ever thought of plugging your machine to the Internet and making it anonymous? If you have used Tor browser, I don't have to explain how powerful the Tor network is. There's a nice tutorial in the official Tor documentation, which explains transparently routing traffic through the Tor network.

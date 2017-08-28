@@ -4,7 +4,7 @@
 .. tags: jboss
 .. category: tech
 .. link: 
-.. description: 
+.. description: jboss-eap basic implementations and operations.
 .. type: text
    
 It was a hard time to figure out how to control jboss EAP 6 from cli mode, hence the lack of straight forward information.

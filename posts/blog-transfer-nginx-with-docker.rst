@@ -4,7 +4,7 @@
 .. tags: docker, nginx, blog 
 .. category: tech
 .. link: 
-.. description: 
+.. description: step by step guide of transfering a static site into a docker container. 
 .. type: text
 
 I'm very impressed with Docker containerization, and while studying it, I just wanted to try some of the basic things I've learned. If you're not familiar with Containerization and Docker, let me explain it in simple words.

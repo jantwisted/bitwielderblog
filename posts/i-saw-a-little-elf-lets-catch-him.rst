@@ -5,7 +5,7 @@
 .. category: tech, fun
 .. link: 
 .. previewimage: /galleries/i-saw-a-little-elf/elf-meme.jpg 
-.. description: 
+.. description: Coding challenge from ringzer0team. I saw a little elf.
 .. type: text
 
 

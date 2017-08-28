@@ -4,7 +4,7 @@
 .. tags: friends, post, journey 
 .. category: non-tech 
 .. link: 
-.. description: 
+.. description: distance friends
 .. type: text
 .. previewimage: /galleries/friendship-cards/post_cards_01.jpg
    

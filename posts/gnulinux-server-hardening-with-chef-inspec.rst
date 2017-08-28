@@ -4,7 +4,7 @@
 .. tags: Automation,DevOps 
 .. category: tech
 .. link: 
-.. description: 
+.. description: Easy way of server hardening, by using chef and inspec. 
 .. type: text
 
 
