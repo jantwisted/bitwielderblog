@@ -141,7 +141,7 @@ NAVIGATION_LINKS = {
 }
 
 # Name of the theme to use.
-THEME = "canterville"
+THEME = "bootstrap"
 
 # Primary color of your theme. This will be used to customize your theme and
 # auto-generate related colors in POSTS_SECTION_COLORS. Must be a HEX value.
@@ -286,7 +286,7 @@ COMPILERS = {
 # Nikola supports logo display.  If you have one, you can put the URL here.
 # Final output is <img src="LOGO_URL" id="logo" alt="BLOG_TITLE">.
 # The URL may be relative to the site root.
-LOGO_URL = 'https://getnikola.com/assets/img/logo.svg'
+#LOGO_URL = 'https://getnikola.com/assets/img/logo.svg'
 
 # If you want to hide the title of your website (for example, if your logo
 # already contains the text), set this to False.
@@ -1241,9 +1241,9 @@ UNSLUGIFY_TITLES = True
 # Put in global_context things you want available on all your templates.
 # It can be anything, data, functions, modules, etc.
 GLOBAL_CONTEXT = {
-    'TWITTER_URL': 'https://twitter.com/JANTWISTED',
-    'GITHUB_URL': 'https://github.com/jantwisted/bitwielderblog',
-    'BANNER_URL': '/galleries/blog-base/banner.jpg'
+    # 'TWITTER_URL': 'https://twitter.com/JANTWISTED',
+    # 'GITHUB_URL': 'https://github.com/jantwisted/bitwielderblog',
+    # 'BANNER_URL': '/galleries/blog-base/banner.jpg'
 }
 
 # Add functions here and they will be called with template
