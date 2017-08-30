@@ -15,7 +15,7 @@ a secret word out of a huge payload which seems to be encoded. The name of the c
 
 .. image:: /galleries/i-saw-a-little-elf/elf-meme.jpg
 
-This is going to be a long post, just hold your breath. This is how I figured it out. First, I did a google search (I'm smart), and yes, some people have already solved it, however the solutions have less information on what the problem really is. Then I started to understand the problem with my own. Here's the problem. (I have removed 90% of message body to make it small and clear)
+This is going to be a long post, just hold your breath and let me explain how I figured it out. First, I did a google search (I'm smart), and yes, some people have already solved it, however they have less information on what the problem really is. Then I started to understand the problem with my own. Here's the problem. (I have removed 90% of message body to make it small and clear)
 
 * URL : https://ringzer0team.com/challenges/15
 
